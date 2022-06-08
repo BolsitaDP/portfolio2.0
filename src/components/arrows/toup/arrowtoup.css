@@ -1,0 +1,24 @@
+.arrowToUpContainer {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1500px;
+  height: 700px;
+}
+.arrowToUp {
+  position: relative;
+  top: -350px;
+  font-size: 50px;
+  background-color: var(--secondary-color);
+  color: var(--black);
+  border-radius: 10px;
+  padding: 0 20px;
+  z-index: 20;
+  transition: 0.5s;
+  border: 2px solid var(--secondary-color);
+}
+.arrowToUp:hover {
+  color: var(--secondary-color);
+  background-color: var(--black);
+}

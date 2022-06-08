@@ -1,0 +1,88 @@
+.homeContainer.down {
+  transform: translateY(100vh);
+  transition: 1s;
+}
+.homeContainer.up {
+  transform: translateY(-100vh);
+  transition: 1s;
+}
+.homeContainer.left {
+  transform: translateX(-100vw);
+  transition: 1s;
+}
+.homeContainer.right {
+  transform: translateX(100vw);
+  transition: 1s;
+}
+.homeContainer.cameFromSkills {
+  animation: upToCenter 1s;
+}
+.homeContainer.cameFromContact {
+  animation: downToCenter 1s;
+}
+.homeContainer.cameFromAboutme {
+  animation: leftToCenter 1s;
+}
+.homeContainer.cameFrom {
+  animation: rightToCenter 1s;
+}
+.homeLeft {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--black);
+  z-index: 10;
+}
+.homeTitle {
+  display: flex;
+  flex-direction: column;
+  font-size: 110px;
+  font-weight: 600;
+}
+.homeSubtitle {
+  background-color: var(--secondary-color);
+  padding: 2% 5%;
+  font-size: 55px;
+  font-weight: 600;
+  border-radius: 20px;
+  margin-top: 7%;
+}
+.homeSocials {
+  display: flex;
+  width: 60%;
+  justify-content: space-around;
+  margin-top: 7%;
+}
+.homeSocials a {
+  background-color: var(--black);
+  padding: 2% 4%;
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--primary-color);
+  border-radius: 10px;
+  border: 2px solid var(--black);
+  transition: 0.5s;
+}
+.homeSocials a:hover {
+  background-color: transparent;
+  color: var(--black);
+}
+.homeRight {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+}
+.homeImg {
+  width: 100%;
+  height: 50%;
+  border-radius: 20px;
+  background: linear-gradient(
+    228deg,
+    var(--primary-color) 10%,
+    var(--secondary-color) 100%
+  );
+}

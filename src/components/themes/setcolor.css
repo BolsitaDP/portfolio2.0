@@ -1,0 +1,22 @@
+.themesColors {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+  transition: 0.5s;
+}
+.themesColors.false {
+  transform: translateX(80px);
+}
+.circularButton#blue {
+  color: #7a82db;
+}
+.circularButton#red {
+  color: #db6962;
+}
+.circularButton#green {
+  color: #55db75;
+}
+.circularButton#orange {
+  color: #fa9660;
+}
