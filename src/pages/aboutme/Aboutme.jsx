@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import Guides from "../../components/guides/Guides";
 import ArrowToLeft from "../../components/arrows/toleft/ArrowToLeft";
 import "./aboutme.css";
+import AboutmeInfo from "./AboutmeInfo";
 
 const Aboutme = ({ cameFrom, cameFromPage }) => {
   const [directionOut, setDirectionOut] = useState("");
@@ -37,7 +38,10 @@ const Aboutme = ({ cameFrom, cameFromPage }) => {
     >
       <Guides up="" down="" left="Home" right="" />
       <ArrowToLeft goTo={goTo} goToPage="" />
-      Aboutme
+      <div className="aboutmeContent">
+        <div className="title aboutmeTitle">About Me</div>
+        <AboutmeInfo />
+      </div>
     </div>
   );
 };

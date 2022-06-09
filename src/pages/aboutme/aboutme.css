@@ -1,0 +1,135 @@
+.aboutmeContainer.right {
+  transform: translateX(100vw);
+  transition: 1s;
+}
+.aboutmeContainer.cameFromHome {
+  animation: rightToCenter 1s;
+}
+.aboutmeContent {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  font-weight: 600;
+  color: var(--black);
+  z-index: 10;
+}
+.aboutmeInfo {
+  display: flex;
+  gap: 5%;
+  padding: 5% 3%;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  background-color: var(--black);
+  border-radius: 20px;
+  margin-top: 2%;
+  box-sizing: border-box;
+}
+.aboutmeInfoLeft {
+  width: 40%;
+}
+.aboutmeQuestions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.aboutmeQuestion1,
+.aboutmeQuestion2,
+.aboutmeQuestion3,
+.aboutmeQuestion4 {
+  padding: 5%;
+  width: 100%;
+  border-radius: 10px;
+}
+.aboutmeQuestion1.true,
+.aboutmeQuestion2.true,
+.aboutmeQuestion3.true,
+.aboutmeQuestion4.true {
+  background-color: var(--secondary-color);
+  padding: 15px;
+  width: 100%;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+
+.aboutmeQuestion1.true::after,
+.aboutmeQuestion2.true::after,
+.aboutmeQuestion3.true::after,
+.aboutmeQuestion4.true::after {
+  content: " ";
+  background-color: var(--secondary-color);
+  padding: 2% 15%;
+  width: 100%;
+  border-radius: 10px;
+  transition: 0.5s;
+  transform: translateX(50px);
+  animation: after 1s;
+  position: relative;
+}
+.aboutmeQuestion {
+  background-color: var(--secondary-color);
+  padding: 5px;
+  border-radius: 5px;
+  width: 100%;
+  outline: none;
+  border: 2px solid var(--secondary-color);
+  color: var(--black);
+  font-size: 20px;
+  font-weight: 600;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.aboutmeQuestion:hover {
+  background-color: transparent;
+  color: var(--secondary-color);
+}
+.aboutmeQuestion1.true .aboutmeQuestion,
+.aboutmeQuestion2.true .aboutmeQuestion,
+.aboutmeQuestion3.true .aboutmeQuestion,
+.aboutmeQuestion4.true .aboutmeQuestion {
+  color: var(--secondary-color);
+  background-color: var(--black);
+  border: 2px solid var(--black);
+}
+.aboutmeQuestion1.true .aboutmeQuestion:hover,
+.aboutmeQuestion2.true .aboutmeQuestion:hover,
+.aboutmeQuestion3.true .aboutmeQuestion:hover,
+.aboutmeQuestion4.true .aboutmeQuestion:hover {
+  background-color: var(--secondary-color);
+  color: var(--black);
+}
+.aboutmeInfoRight {
+  background-color: var(--secondary-color);
+  height: 100%;
+  border-radius: 20px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s;
+}
+.aboutmeInfo1,
+.aboutmeInfo2,
+.aboutmeInfo3,
+.aboutmeInfo4 {
+  display: none;
+  width: 80%;
+}
+.aboutmeInfo1.true,
+.aboutmeInfo2.true,
+.aboutmeInfo3.true,
+.aboutmeInfo4.true {
+  display: flex;
+  font-size: 20px;
+  font-weight: 600;
+}
+@keyframes after {
+  0% {
+    left: 60px;
+  }
+  100% {
+    left: 0;
+  }
+}

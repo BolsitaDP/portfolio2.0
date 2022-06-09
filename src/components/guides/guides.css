@@ -26,7 +26,7 @@
 }
 .guideLeft {
   transform: rotate(270deg);
-  left: -100px;
+  left: -110px;
 }
 .guideRight {
   transform: rotate(90deg);

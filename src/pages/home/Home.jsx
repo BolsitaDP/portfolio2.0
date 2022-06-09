@@ -37,11 +37,11 @@ const Home = ({ cameFrom, cameFromPage }) => {
 
   return (
     <div className={`container homeContainer ${directionOut} ${directionIn}`}>
-      <Guides up="Skills" down="Contact" left="Lorem" right="About Me" />
+      <Guides up="Skills" down="Contact" left="Projects" right="About Me" />
       <ArrowToUp goTo={goTo} goToPage="skills" />
       <ArrowToDown goTo={goTo} goToPage="contact" />
       <ArrowToRight goTo={goTo} goToPage="aboutme" />
-      <ArrowToLeft goTo={goTo} goToPage="" />
+      <ArrowToLeft goTo={goTo} goToPage="projects" />
       <div className="homeLeft">
         <div className="homeTitle">
           <span>Santiago</span>

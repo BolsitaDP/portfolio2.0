@@ -23,7 +23,7 @@
 .homeContainer.cameFromAboutme {
   animation: leftToCenter 1s;
 }
-.homeContainer.cameFrom {
+.homeContainer.cameFromProjects {
   animation: rightToCenter 1s;
 }
 .homeLeft {
