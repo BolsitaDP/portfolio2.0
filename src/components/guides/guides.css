@@ -32,3 +32,119 @@
   transform: rotate(90deg);
   right: -130px;
 }
+
+/* ------------ -1700px ------------ */
+
+@media (max-width: 1700px) {
+  .guidesContainer {
+    width: 1400px;
+    height: 650px;
+  }
+}
+
+/* ------------ -1600px ------------ */
+
+@media (max-width: 1600px) {
+  .guidesContainer {
+    width: 1275px;
+    height: 600px;
+  }
+  .guide {
+    font-size: 25px;
+  }
+  .guideUp {
+    top: -75px;
+  }
+  .guideDown {
+    bottom: -75px;
+  }
+  .guideLeft {
+    left: -100px;
+  }
+  .guideRight {
+    right: -110px;
+  }
+}
+
+/* -------------- -1440px -------------- */
+
+@media (max-width: 1440px) {
+  .guidesContainer {
+    width: 1100px;
+    height: 550px;
+  }
+}
+
+/* -------------- -1280px -------------- */
+
+@media (max-width: 1280px) {
+  .guidesContainer {
+    width: 950px;
+    height: 550px;
+  }
+}
+
+/* -------------- -1024px -------------- */
+
+@media (max-width: 1024px) {
+  .guidesContainer {
+    width: 800px;
+    height: 450px;
+  }
+}
+
+/* -------------- -970px -------------- */
+
+@media (max-width: 970px) {
+  .guidesContainer {
+    width: 600px;
+    height: 800px;
+  }
+}
+
+/* -------------- -767 -------------- */
+
+@media (max-width: 767px) {
+  .guidesContainer {
+    width: 450px;
+    height: 600px;
+  }
+}
+
+/* -------------- -540px -------------- */
+
+@media (max-width: 540px) {
+}
+
+/* -------------- -425px -------------- */
+
+@media (max-width: 425px) {
+  .guidesContainer {
+    width: 300px;
+    height: 700px;
+  }
+  .guide {
+    font-size: 18px;
+  }
+  .guideUp {
+    top: -45px;
+  }
+  .guideDown {
+    bottom: -45px;
+  }
+  .guideLeft {
+    left: -60px;
+  }
+  .guideRight {
+    right: -60px;
+  }
+}
+
+/* -------------- -375px -------------- */
+
+@media (max-width: 375px) {
+  .guidesContainer {
+    width: 275px;
+    height: 550px;
+  }
+}

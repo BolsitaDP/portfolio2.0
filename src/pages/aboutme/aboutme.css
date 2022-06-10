@@ -25,6 +25,7 @@
   border-radius: 20px;
   margin-top: 2%;
   box-sizing: border-box;
+  z-index: 30;
 }
 .aboutmeInfoLeft {
   width: 40%;
@@ -34,6 +35,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  transition: 0.5s;
 }
 .aboutmeQuestion1,
 .aboutmeQuestion2,
@@ -67,6 +69,7 @@
   transform: translateX(50px);
   animation: after 1s;
   position: relative;
+  z-index: 20;
 }
 .aboutmeQuestion {
   background-color: var(--secondary-color);
@@ -124,6 +127,7 @@
   display: flex;
   font-size: 20px;
   font-weight: 600;
+  z-index: 30;
 }
 @keyframes after {
   0% {
@@ -131,5 +135,183 @@
   }
   100% {
     left: 0;
+  }
+}
+
+/* ------------ -1700px ------------ */
+
+@media (max-width: 1700px) {
+}
+
+/* ------------ -1600px ------------ */
+
+@media (max-width: 1600px) {
+  .aboutmeInfo {
+    padding: 4% 2%;
+  }
+}
+
+/* -------------- -1440px -------------- */
+
+@media (max-width: 1440px) {
+  .aboutmeTitle {
+    font-size: 80px;
+  }
+}
+
+/* -------------- -1280px -------------- */
+
+@media (max-width: 1280px) {
+}
+
+/* -------------- -1024px -------------- */
+
+@media (max-width: 1024px) {
+  .aboutmeTitle {
+    font-size: 60px;
+  }
+  .aboutmeInfo {
+    padding: 4% 2%;
+  }
+  .aboutmeInfo1.true,
+  .aboutmeInfo2.true,
+  .aboutmeInfo3.true,
+  .aboutmeInfo4.true {
+    font-size: 17px;
+  }
+  .aboutmeQuestion {
+    font-size: 17px;
+  }
+}
+
+/* -------------- -970px -------------- */
+
+@media (max-width: 970px) {
+  .aboutmeTitle {
+    font-size: 80px;
+    margin-bottom: 10%;
+  }
+  .aboutmeInfo {
+    padding: 8% 4%;
+    box-sizing: content-box;
+  }
+  .aboutmeInfoRight {
+    padding: 5% 0;
+  }
+
+  .aboutmeQuestion1,
+  .aboutmeQuestion2,
+  .aboutmeQuestion3,
+  .aboutmeQuestion4 {
+    padding: 15%;
+  }
+}
+
+/* -------------- -767px -------------- */
+
+@media (max-width: 767px) {
+  .aboutmeTitle {
+    font-size: 60px;
+    margin-bottom: 8%;
+  }
+  .aboutmeInfo {
+    padding: 8% 4%;
+    box-sizing: content-box;
+  }
+  .aboutmeInfoRight {
+    padding: 5% 0;
+  }
+  .aboutmeInfo1.true,
+  .aboutmeInfo2.true,
+  .aboutmeInfo3.true,
+  .aboutmeInfo4.true {
+    font-size: 14px;
+  }
+  .aboutmeQuestion {
+    font-size: 15px;
+  }
+  .aboutmeQuestion1,
+  .aboutmeQuestion2,
+  .aboutmeQuestion3,
+  .aboutmeQuestion4 {
+    padding: 5%;
+  }
+  .aboutmeQuestion1.true,
+  .aboutmeQuestion2.true,
+  .aboutmeQuestion3.true,
+  .aboutmeQuestion4.true {
+    padding: 10px;
+  }
+}
+
+/* -------------- -425px -------------- */
+
+@media (max-width: 425px) {
+  .aboutmeTitle {
+    font-size: 50px;
+    margin-bottom: 8%;
+  }
+  .aboutmeInfo {
+    padding: 5% 3%;
+    box-sizing: border-box;
+    flex-direction: column;
+  }
+  .aboutmeInfoRight {
+    padding: 7% 0;
+    margin-bottom: 2%;
+  }
+  .aboutmeInfo1.true,
+  .aboutmeInfo2.true,
+  .aboutmeInfo3.true,
+  .aboutmeInfo4.true {
+    font-size: 12px;
+  }
+  .aboutmeQuestion {
+    font-size: 13px;
+  }
+  .aboutmeQuestion1,
+  .aboutmeQuestion2,
+  .aboutmeQuestion3,
+  .aboutmeQuestion4 {
+    padding: 5%;
+  }
+  .aboutmeQuestion1.true,
+  .aboutmeQuestion2.true,
+  .aboutmeQuestion3.true,
+  .aboutmeQuestion4.true {
+    padding: 10px;
+  }
+  .aboutmeQuestion1.true::after,
+  .aboutmeQuestion2.true::after,
+  .aboutmeQuestion3.true::after,
+  .aboutmeQuestion4.true::after {
+    display: none;
+  }
+}
+
+/* -------------- -375px -------------- */
+
+@media (max-width: 375px) {
+  .aboutmeTitle {
+    font-size: 40px;
+    margin-bottom: 5%;
+  }
+  .aboutmeInfo {
+    padding: 5% 3%;
+    box-sizing: border-box;
+    flex-direction: column;
+  }
+  .aboutmeInfoRight {
+    padding: 5% 0;
+    margin-bottom: 2%;
+  }
+  .aboutmeInfo1.true,
+  .aboutmeInfo2.true,
+  .aboutmeInfo3.true,
+  .aboutmeInfo4.true {
+    font-size: 11px;
+  }
+  .aboutmeQuestion {
+    font-size: 12px;
   }
 }

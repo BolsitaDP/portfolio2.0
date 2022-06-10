@@ -8,6 +8,9 @@
 .themesColors.false {
   transform: translateX(80px);
 }
+.themesMenu {
+  z-index: 99;
+}
 .circularButton#blue {
   color: #7a82db;
 }

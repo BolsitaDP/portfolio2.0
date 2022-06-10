@@ -44,22 +44,33 @@ const Home = ({ cameFrom, cameFromPage }) => {
       <ArrowToLeft goTo={goTo} goToPage="projects" />
       <div className="homeLeft">
         <div className="homeTitle">
-          <span>Santiago</span>
-          <span>Giraldo's</span>
+          Santiago <br />
+          Giraldo's
         </div>
         <div className="homeSubtitle">Portfolio</div>
         <div className="homeSocials">
-          <a href="http://a" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://github.com/BolsitaDP"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Github
           </a>
-          <a href="http://a" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://www.linkedin.com/in/santiago-giraldo-2a6b1114a/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             LinkedIn
           </a>
         </div>
       </div>
       <div className="homeRight">
         <div className="homeImg">
-          <img src="" alt="" />
+          <img
+            src="https://uning.es/wp-content/uploads/2016/08/ef3-placeholder-image.jpg"
+            alt=""
+          />
         </div>
       </div>
     </div>

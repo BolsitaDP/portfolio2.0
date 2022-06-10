@@ -75,10 +75,9 @@ const AboutmeInfo = () => {
           I have always been very close to technology in general, that is why in
           my school I decided to study software programming. There I leaned
           towards video game programming and learned languages ​​like Unity or
-          the GameMaker Studio 2 language, which helped me improve my logic.
-          After graduating I focused on my professional career (psychology) for
-          1 year but I realized that what I really like is code and I decided to
-          learn something that would give me a job but that I also liked.
+          the GameMaker Studio 2 language. After graduating I focused on my
+          professional career (psychology) for 1 year but I realized that what I
+          really like is code.
         </div>
         <div className={`aboutmeInfo3 ${active3}`}>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum maiores

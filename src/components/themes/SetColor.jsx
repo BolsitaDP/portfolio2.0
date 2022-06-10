@@ -16,7 +16,7 @@ const SetColor = ({ color }) => {
 
   return (
     <div className={`themesMenu`}>
-      <button onClick={handleShow} className="circularButton">
+      <button onClick={handleShow} className="menuColors circularButton">
         <BsPalette />
       </button>
       <div className={`themesColors ${show}`}>

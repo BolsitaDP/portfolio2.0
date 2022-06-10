@@ -48,6 +48,7 @@
   font-weight: 600;
   border-radius: 20px;
   margin-top: 7%;
+  transition: 0.5s;
 }
 .homeSocials {
   display: flex;
@@ -85,4 +86,124 @@
     var(--primary-color) 10%,
     var(--secondary-color) 100%
   );
+}
+.homeImg img {
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+  border-radius: 20px;
+  transform: rotate(20deg);
+  transition: 0.5s;
+}
+.homeImg img:hover {
+  transform: rotate(0);
+}
+
+/* ------------ -1700px ------------ */
+
+@media (max-width: 1700px) {
+}
+
+/* -------------- -1440px -------------- */
+
+@media (max-width: 1440px) {
+  .homeTitle {
+    font-size: 80px;
+  }
+}
+
+/* -------------- -1280px -------------- */
+
+@media (max-width: 1280px) {
+}
+
+/* -------------- -1024px -------------- */
+
+@media (max-width: 1024px) {
+}
+
+/* -------------- -970px -------------- */
+
+@media (max-width: 970px) {
+  .container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .homeLeft {
+    height: 50%;
+  }
+  .homeTitle {
+    font-size: 90px;
+  }
+  .homeRight {
+    height: 30%;
+    width: 40%;
+    margin-top: 5%;
+  }
+  .homeImg {
+    height: 80%;
+  }
+}
+
+/* -------------- -767px -------------- */
+
+@media (max-width: 767px) {
+  .homeTitle {
+    font-size: 70px;
+  }
+  .homeSubtitle {
+    font-size: 40px;
+  }
+  .homeSocials a {
+    font-size: 15px;
+  }
+  .homeRight {
+    height: 40%;
+    width: 50%;
+  }
+  .homeImg {
+    height: 70%;
+  }
+}
+
+/* -------------- -540px -------------- */
+
+@media (max-width: 540px) {
+}
+
+/* -------------- -425px -------------- */
+
+@media (max-width: 425px) {
+  .homeTitle {
+    font-size: 50px;
+    margin-bottom: 20%;
+  }
+  .homeSubtitle {
+    font-size: 30px;
+    margin-bottom: 20%;
+    padding: 2% 20%;
+    transform: rotate(-15deg);
+  }
+  .homeSubtitle:hover {
+    transform: rotate(0);
+  }
+  .homeSocials {
+    gap: 10%;
+  }
+  .homeSocials a {
+    font-size: 15px;
+  }
+  .homeRight {
+    height: 30%;
+    width: 70%;
+  }
+  .homeImg {
+    height: 70%;
+  }
+}
+
+/* -------------- -375px -------------- */
+
+@media (max-width: 375px) {
 }
