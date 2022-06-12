@@ -1,14 +1,12 @@
 .arrowToUpContainer {
   position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 1500px;
-  height: 700px;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
 }
 .arrowToUp {
-  position: relative;
-  top: -350px;
+  position: absolute;
   font-size: 50px;
   background-color: var(--secondary-color);
   color: var(--black);
@@ -17,122 +15,21 @@
   z-index: 20;
   transition: 0.5s;
   border: 2px solid var(--secondary-color);
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
 }
 .arrowToUp:hover {
   color: var(--secondary-color);
   background-color: var(--black);
 }
 
-/* ------------ -1700px ------------ */
-
-@media (max-width: 1700px) {
-  .arrowToUpContainer {
-    width: 1400px;
-    height: 650px;
-  }
-  .arrowToUp {
-    top: -325px;
-  }
-}
-
-/* ------------ -1600px ------------ */
-
-@media (max-width: 1600px) {
-  .arrowToUpContainer {
-    width: 1275px;
-    height: 600px;
-  }
-  .arrowToUp {
-    top: -300px;
-    font-size: 40px;
-    padding: 0 15px;
-  }
-}
-
-/* -------------- -1440px -------------- */
-
-@media (max-width: 1440px) {
-  .arrowToUpContainer {
-    width: 1100px;
-    height: 550px;
-  }
-  .arrowToUp {
-    top: -275px;
-  }
-}
-
-/* -------------- -1280px -------------- */
-
-@media (max-width: 1280px) {
-  .arrowToUpContainer {
-    width: 950px;
-    height: 550px;
-  }
-}
-
-/* -------------- -1024px -------------- */
-
-@media (max-width: 1024px) {
-  .arrowToUpContainer {
-    width: 800px;
-    height: 450px;
-  }
-  .arrowToUp {
-    top: -225px;
-  }
-}
-
-/* -------------- -970px -------------- */
-
-@media (max-width: 970px) {
-  .arrowToUpContainer {
-    width: 600px;
-    height: 800px;
-  }
-  .arrowToUp {
-    top: -400px;
-  }
-}
-
-/* -------------- -767 -------------- */
-
-@media (max-width: 767px) {
-  .arrowToUpContainer {
-    width: 450px;
-    height: 600px;
-  }
-  .arrowToUp {
-    top: -300px;
-  }
-}
-
-/* -------------- -540px -------------- */
-
-@media (max-width: 540px) {
-}
-
 /* -------------- -425px -------------- */
 
 @media (max-width: 425px) {
-  .arrowToUpContainer {
-    width: 300px;
-    height: 700px;
-  }
   .arrowToUp {
-    top: -350px;
     font-size: 20px;
     padding: 0 15px;
-  }
-}
-
-/* -------------- -375px -------------- */
-
-@media (max-width: 375px) {
-  .arrowToUpContainer {
-    width: 275px;
-    height: 550px;
-  }
-  .arrowToUp {
-    top: -275px;
+    top: 11.5%;
   }
 }

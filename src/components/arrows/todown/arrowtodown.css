@@ -1,14 +1,12 @@
 .arrowToDownContainer {
   position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 1500px;
-  height: 700px;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
 }
 .arrowToDown {
-  position: relative;
-  bottom: -350px;
+  position: absolute;
   font-size: 50px;
   background-color: var(--secondary-color);
   color: var(--black);
@@ -17,6 +15,9 @@
   z-index: 20;
   transition: 0.5s;
   border: 2px solid var(--secondary-color);
+  top: 85%;
+  left: 50%;
+  transform: translateX(-50%);
 }
 .arrowToDown:hover {
   color: var(--secondary-color);
@@ -26,24 +27,19 @@
 /* ------------ -1700px ------------ */
 
 @media (max-width: 1700px) {
-  .arrowToDownContainer {
+  /* .arrowToDownContainer {
     width: 1400px;
     height: 650px;
   }
   .arrowToDown {
     bottom: -325px;
-  }
+  } */
 }
 
 /* ------------ -1600px ------------ */
 
 @media (max-width: 1600px) {
-  .arrowToDownContainer {
-    width: 1275px;
-    height: 600px;
-  }
   .arrowToDown {
-    bottom: -300px;
     font-size: 40px;
     padding: 0 15px;
   }
@@ -51,7 +47,7 @@
 
 /* -------------- -1440px -------------- */
 
-@media (max-width: 1440px) {
+/* @media (max-width: 1440px) {
   .arrowToDownContainer {
     width: 1100px;
     height: 550px;
@@ -59,20 +55,20 @@
   .arrowToDown {
     bottom: -275px;
   }
-}
+} */
 
 /* -------------- -1280px -------------- */
 
-@media (max-width: 1280px) {
+/* @media (max-width: 1280px) {
   .arrowToDownContainer {
     width: 950px;
     height: 550px;
   }
-}
+} */
 
 /* -------------- -1024px -------------- */
 
-@media (max-width: 1024px) {
+/* @media (max-width: 1024px) {
   .arrowToDownContainer {
     width: 800px;
     height: 450px;
@@ -80,21 +76,27 @@
   .arrowToDown {
     bottom: -225px;
   }
-}
+} */
 
-@media (max-width: 970px) {
+/* @media (max-width: 970px) {
   .arrowToDownContainer {
-    width: 600px;
-    height: 800px;
+    position: absolute;
+    display: block;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
   }
   .arrowToDown {
-    bottom: -400px;
+    top: 88%;
+    left: 50%;
+    transform: translateX(-50%);
   }
-}
+} */
 
 /* -------------- -767 -------------- */
 
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
   .arrowToDownContainer {
     width: 450px;
     height: 600px;
@@ -102,7 +104,7 @@
   .arrowToDown {
     bottom: -300px;
   }
-}
+} */
 
 /* -------------- -540px -------------- */
 
@@ -112,25 +114,25 @@
 /* -------------- -425px -------------- */
 
 @media (max-width: 425px) {
-  .arrowToDownContainer {
+  /* .arrowToDownContainer {
     width: 300px;
     height: 700px;
-  }
+  } */
   .arrowToDown {
-    bottom: -350px;
     font-size: 20px;
     padding: 0 15px;
+    top: 86.5%;
   }
 }
 
 /* -------------- -375px -------------- */
 
 @media (max-width: 375px) {
-  .arrowToDownContainer {
+  /* .arrowToDownContainer {
     width: 275px;
     height: 550px;
   }
   .arrowToDown {
     bottom: -275px;
-  }
+  } */
 }

@@ -1,14 +1,12 @@
 .arrowToLeftContainer {
   position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 1500px;
-  height: 700px;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
 }
 .arrowToLeft {
-  position: relative;
-  left: -750px;
+  position: absolute;
   font-size: 50px;
   background-color: var(--secondary-color);
   color: var(--black);
@@ -17,125 +15,32 @@
   z-index: 20;
   transition: 0.5s;
   border: 2px solid var(--secondary-color);
+  top: 50%;
+  left: 8.5%;
+  transform: translateY(-50%);
 }
 .arrowToLeft:hover {
   color: var(--secondary-color);
   background-color: var(--black);
 }
 
-/* ------------ -1700px ------------ */
-
-@media (max-width: 1700px) {
-  .arrowToLeftContainer {
-    width: 1400px;
-    height: 650px;
-  }
-  .arrowToLeft {
-    left: -700px;
-  }
-}
-
-/* ------------ -1600px ------------ */
-
 @media (max-width: 1600px) {
-  .arrowToLeftContainer {
-    width: 1275px;
-    height: 600px;
-  }
   .arrowToLeft {
-    left: -640px;
     font-size: 40px;
     padding: 15px 0;
   }
 }
-
-/* -------------- -1440px -------------- */
-
-@media (max-width: 1440px) {
-  .arrowToLeftContainer {
-    width: 1100px;
-    height: 550px;
-  }
-  .arrowToLeft {
-    left: -550px;
-  }
-}
-
-/* -------------- -1280px -------------- */
-
-@media (max-width: 1280px) {
-  .arrowToLeftContainer {
-    width: 950px;
-    height: 550px;
-  }
-  .arrowToLeft {
-    left: -475px;
-  }
-}
-
-/* -------------- -1024px -------------- */
-
 @media (max-width: 1024px) {
-  .arrowToLeftContainer {
-    width: 800px;
-    height: 450px;
-  }
   .arrowToLeft {
-    left: -400px;
+    left: 8%;
   }
-}
-
-/* -------------- -970px -------------- */
-
-@media (max-width: 970px) {
-  .arrowToLeftContainer {
-    width: 600px;
-    height: 800px;
-  }
-  .arrowToLeft {
-    left: -300px;
-  }
-}
-
-/* -------------- -767 -------------- */
-
-@media (max-width: 767px) {
-  .arrowToLeftContainer {
-    width: 450px;
-    height: 600px;
-  }
-  .arrowToLeft {
-    left: -225px;
-  }
-}
-
-/* -------------- -540px -------------- */
-
-@media (max-width: 540px) {
 }
 
 /* -------------- -425px -------------- */
 
 @media (max-width: 425px) {
-  .arrowToLeftContainer {
-    width: 300px;
-    height: 700px;
-  }
   .arrowToLeft {
-    left: -150px;
     font-size: 20px;
     padding: 15px 0;
-  }
-}
-
-/* -------------- -375px -------------- */
-
-@media (max-width: 375px) {
-  .arrowToLeftContainer {
-    width: 275px;
-    height: 550px;
-  }
-  .arrowToLeft {
-    left: -135px;
   }
 }
