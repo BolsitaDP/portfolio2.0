@@ -15,7 +15,7 @@
   z-index: 20;
   transition: 0.5s;
   border: 2px solid var(--secondary-color);
-  top: 85%;
+  bottom: -3%;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -35,6 +35,6 @@
   .arrowToDown {
     font-size: 20px;
     padding: 0 15px;
-    top: 86.5%;
+    bottom: -2%;
   }
 }

@@ -115,7 +115,7 @@
 
 @media (max-width: 1280px) {
   .homeImg {
-    height: 40%;
+    height: 20vw;
     width: 100%;
   }
 }
@@ -133,14 +133,21 @@
     justify-content: center;
     align-items: center;
   }
+  .homeLeft {
+    width: 100%;
+    padding: 5%;
+    box-sizing: border-box;
+  }
   .homeTitle {
     font-size: 100px;
   }
   .homeSubtitle {
     font-size: 50px;
+    margin-top: 4%;
   }
   .homeSocials {
     gap: 10%;
+    margin-top: 4%;
   }
   .homeSocials a {
     font-size: 25px;
@@ -157,6 +164,9 @@
 /* -------------- -767px -------------- */
 
 @media (max-width: 768px) {
+  .homeLeft {
+    margin-bottom: 2vh;
+  }
   .homeTitle {
     font-size: 70px;
     margin-top: 5%;

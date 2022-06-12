@@ -16,7 +16,7 @@
   transition: 0.5s;
   border: 2px solid var(--secondary-color);
   top: 50%;
-  left: 8.5%;
+  left: -1.5%;
   transform: translateY(-50%);
 }
 .arrowToLeft:hover {
@@ -32,7 +32,7 @@
 }
 @media (max-width: 1024px) {
   .arrowToLeft {
-    left: 8%;
+    left: -2%;
   }
 }
 

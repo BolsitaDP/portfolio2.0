@@ -2,8 +2,6 @@
   position: absolute;
   width: 100%;
   height: 100%;
-  top: 0;
-  left: 0;
 }
 .guide {
   position: absolute;
@@ -25,26 +23,26 @@
   flex-wrap: nowrap;
 }
 .guideUp {
-  top: 7%;
+  top: -7%;
   left: 50%;
   transform: translateX(-55%);
 }
 .guideDown {
   left: 50%;
   transform: translateX(-55%);
-  top: 92%;
+  bottom: -7%;
 }
 .guideLeft {
   top: 50%;
   transform: translateY(-50%);
   transform: rotate(270deg);
-  left: 6.5%;
+  left: -6.5%;
 }
 .guideRight {
   top: 50%;
   transform: translateY(-50%);
   transform: rotate(90deg);
-  right: 6.5%;
+  right: -6.5%;
 }
 
 /* ------------ -1700px ------------ */
@@ -77,16 +75,16 @@
 
 @media (max-width: 1280px) {
   .guideUp {
-    top: 7.5%;
+    top: -7.5%;
   }
   .guideDown {
-    top: 90.5%;
+    bottom: -7%;
   }
   .guideLeft {
-    left: 5%;
+    left: -5%;
   }
   .guideRight {
-    right: 5%;
+    right: -5%;
   }
 }
 
@@ -112,10 +110,10 @@
 
 @media (max-width: 768px) {
   .guideLeft {
-    left: 3%;
+    left: -8%;
   }
   .guideRight {
-    right: 3%;
+    right: -8%;
   }
 }
 
@@ -130,11 +128,17 @@
   .guide {
     font-size: 18px;
   }
+  .guideUp {
+    top: -5%;
+  }
+  .guideDown {
+    bottom: -5%;
+  }
   .guideLeft {
-    left: 2.5%;
+    left: -8%;
   }
   .guideRight {
-    right: 2.5%;
+    right: -8%;
   }
 }
 

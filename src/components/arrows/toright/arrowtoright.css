@@ -16,7 +16,7 @@
   transition: 0.5s;
   border: 2px solid var(--secondary-color);
   top: 50%;
-  left: 88.5%;
+  right: -1.5%;
   transform: translateY(-50%);
 }
 .arrowToRight:hover {
@@ -33,7 +33,7 @@
 
 @media (max-width: 1024px) {
   .arrowToRight {
-    left: 87%;
+    right: -2%;
   }
 }
 @media (max-width: 425px) {
