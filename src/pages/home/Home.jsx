@@ -5,6 +5,7 @@ import ArrowToUp from "../../components/arrows/toup/ArrowToUp";
 import ArrowToLeft from "../../components/arrows/toleft/ArrowToLeft";
 import Guides from "../../components/guides/Guides";
 import "./home.css";
+import ImageMe from "../../assets/Me.jpg";
 
 const Home = ({ cameFrom, cameFromPage }) => {
   const [directionOut, setDirectionOut] = useState("");
@@ -67,10 +68,7 @@ const Home = ({ cameFrom, cameFromPage }) => {
       </div>
       <div className="homeRight">
         <div className="homeImg">
-          <img
-            src="https://uning.es/wp-content/uploads/2016/08/ef3-placeholder-image.jpg"
-            alt=""
-          />
+          <img src={ImageMe} alt="" />
         </div>
       </div>
     </div>
