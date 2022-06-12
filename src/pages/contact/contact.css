@@ -1,5 +1,5 @@
 .contactContainer.down {
-  transform: translateY(100vh);
+  transform: translate(-50%, 100vh);
   transition: 1s;
 }
 .contactContainer.cameFromHome {

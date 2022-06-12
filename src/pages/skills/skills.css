@@ -1,5 +1,5 @@
 .skillsContainer.up {
-  transform: translateY(-100vh);
+  transform: translate(-50%, -150vh);
   transition: 1s;
 }
 .skillsContainer.cameFromHome {

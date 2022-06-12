@@ -1,5 +1,5 @@
 .projectsContainer.left {
-  transform: translateX(-100vw);
+  transform: translate(-150vw, -50%);
   transition: 1s;
 }
 .projectsContainer.cameFromHome {

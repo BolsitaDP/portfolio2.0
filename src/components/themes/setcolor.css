@@ -7,9 +7,16 @@
 }
 .themesColors.false {
   transform: translateX(80px);
+  z-index: 0;
 }
-.themesMenu {
+.themeSwitcher.themesColors.false {
+  z-index: 0;
+}
+.themesMenu.themesColors.true {
   z-index: 99;
+}
+.themesMenu.themesColors.false {
+  z-index: 0;
 }
 .circularButton#blue {
   color: #7a82db;
@@ -22,4 +29,18 @@
 }
 .circularButton#orange {
   color: #fa9660;
+}
+
+@media (max-width: 767px) {
+  .modeContainer {
+    position: relative;
+    left: 3%;
+  }
+  .themesMenu {
+    position: relative;
+    right: 5%;
+  }
+}
+
+@media (max-width: 375px) {
 }

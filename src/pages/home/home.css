@@ -1,17 +1,17 @@
 .homeContainer.down {
-  transform: translateY(100vh);
+  transform: translate(-50%, 50vh);
   transition: 1s;
 }
 .homeContainer.up {
-  transform: translateY(-100vh);
+  transform: translate(-50%, -150vh);
   transition: 1s;
 }
 .homeContainer.left {
-  transform: translateX(-100vw);
+  transform: translate(-150vw, -50%);
   transition: 1s;
 }
 .homeContainer.right {
-  transform: translateX(100vw);
+  transform: translate(50vw, -50%);
   transition: 1s;
 }
 .homeContainer.cameFromSkills {

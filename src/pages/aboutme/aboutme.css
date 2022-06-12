@@ -1,5 +1,5 @@
 .aboutmeContainer.right {
-  transform: translateX(100vw);
+  transform: translate(50vw, -50%);
   transition: 1s;
 }
 .aboutmeContainer.cameFromHome {

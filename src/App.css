@@ -27,7 +27,7 @@ html::-webkit-scrollbar {
   --background: #1b1b1b;
 }
 .App.light {
-  background-color: #cfcfcf;
+  background-color: #775454;
   --background: #cfcfcf;
 }
 .App.red {
@@ -65,6 +65,9 @@ html::-webkit-scrollbar {
 
 .container {
   position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
   width: 80%;
   height: 75%;
   background-color: var(--primary-color);
@@ -84,15 +87,13 @@ html::-webkit-scrollbar {
 
 @keyframes centerToDown {
   0% {
-    transform: translateY(0);
   }
   100% {
-    transform: translateY(100vh);
+    transform: translate(-50%, 100vh);
   }
 }
 @keyframes centerToUp {
   0% {
-    transform: translateY(0);
   }
   100% {
     transform: translateY(-100vh);
@@ -100,28 +101,28 @@ html::-webkit-scrollbar {
 }
 @keyframes upToCenter {
   0% {
-    transform: translateY(100vh);
+    transform: translate(-50%, 50vh);
   }
   100% {
   }
 }
 @keyframes downToCenter {
   0% {
-    transform: translateY(-100vh);
+    transform: translate(-50%, -150vh);
   }
   100% {
   }
 }
 @keyframes leftToCenter {
   0% {
-    transform: translateX(-100vw);
+    transform: translate(-150vw, -50%);
   }
   100% {
   }
 }
 @keyframes rightToCenter {
   0% {
-    transform: translateX(100vw);
+    transform: translate(50vw, -50%);
   }
   100% {
   }
@@ -195,6 +196,18 @@ html::-webkit-scrollbar {
 /* -------------- -767px -------------- */
 
 @media (max-width: 767px) {
+  .themeSwitcher {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+    top: 3%;
+    right: 0px;
+    overflow: hidden;
+    width: 100%;
+    box-sizing: border-box;
+  }
 }
 
 /* -------------- -425px -------------- */
