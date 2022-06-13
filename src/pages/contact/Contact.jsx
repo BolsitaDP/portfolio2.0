@@ -44,8 +44,8 @@ const Contact = ({ cameFrom, cameFromPage }) => {
         <div className="contactInfo">
           <ContactInfo />
           <div className="contactInfoMid">
-            Or send me
-            <br />a message:
+            Or send me 
+            <span>a message:</span>
           </div>
           <ContactForm />
         </div>

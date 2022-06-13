@@ -42,6 +42,7 @@ const ContactForm = () => {
       <div className="contactFormMessage">
         <textarea
           className="contactFormInput"
+          id="textarea"
           placeholder="Your message"
           name="message"
           cols="30"

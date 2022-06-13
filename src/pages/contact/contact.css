@@ -103,3 +103,81 @@
   background-color: var(--black);
   color: var(--secondary-color);
 }
+
+@media (max-width: 768px) {
+  .contactTitle {
+    font-size: 60px;
+    margin: 6% 0 0 0;
+    height: 20%;
+  }
+  .contactInfo {
+    flex-direction: column;
+    width: 100%;
+    height: 70%;
+  }
+  .contactInfoContainer {
+    width: 90%;
+    padding: 2%;
+    font-size: 14px;
+    box-sizing: border-box;
+    height: 35%;
+  }
+  .contactInfoTitle {
+    padding: 1%;
+    margin-bottom: 3%;
+  }
+  .contactInfoEach {
+    margin-bottom: 1%;
+  }
+  .contactInfoMid {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1% 0;
+    height: 5%;
+    font-size: 14px;
+  }
+  .contactForm {
+    width: 90%;
+    box-sizing: border-box;
+    padding: 2%;
+    height: 60%;
+    justify-content: center;
+  }
+  .contactFormInput {
+    padding: 1% 2%;
+    font-size: 12px;
+    margin-bottom: 2%;
+  }
+  .contactFormInput input {
+    width: 100%;
+  }
+  .contactFormMessage {
+    margin-top: 1%;
+    height: 40%;
+  }
+  .contactFormInput#textarea {
+    height: 90%;
+  }
+  .contactFormSubmitButton {
+    padding: 1%;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 510px) {
+  .contactTitle {
+    font-size: 50px;
+  }
+  .contactInfoContainer {
+    font-size: 12px;
+    justify-content: center;
+  }
+  .contactFormInput {
+    font-size: 10px;
+  }
+  .contactFormSubmitButton {
+    font-size: 12px;
+  }
+}
