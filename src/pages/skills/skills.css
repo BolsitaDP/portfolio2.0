@@ -12,6 +12,8 @@
   font-weight: 600;
   color: var(--black);
   z-index: 10;
+  width: 100%;
+  height: 100%;
 }
 .skillsInfo {
   background-color: var(--black);
@@ -21,6 +23,9 @@
   border-radius: 20px;
   color: var(--primary-color);
   box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .skillsCards {
   display: flex;
@@ -81,4 +86,64 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+@media (max-width: 1280px) {
+  .skillsInfo {
+    padding: 1% 3%;
+    font-size: 17px;
+  }
+  .skillsCards {
+    flex-wrap: wrap;
+    gap: 10%;
+  }
+  .skillsEachSkill {
+    padding: 2%;
+    margin-bottom: 5%;
+  }
+  .skillsEachSkillNeumorphism1 {
+    padding: 0 10px;
+  }
+  .skillsEachSkillNeumorphism2 {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 800px) {
+  .skillsTitle {
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .skillsInfo {
+    padding: 1% 3%;
+    font-size: 15px;
+  }
+  .skillsEachSkillNeumorphism1 {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 600px) {
+  .skillsInfo {
+    padding: 1% 3%;
+    font-size: 13px;
+  }
+  .skillsEachSkillNeumorphism1 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  .skillsTitle {
+    font-size: 50px;
+  }
+  .skillsInfo {
+    height: 25%;
+    font-size: 10px;
+  }
+  .skillsEachSkillNeumorphism1 {
+    font-size: 15px;
+  }
 }
