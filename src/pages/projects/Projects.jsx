@@ -42,9 +42,11 @@ const Projects = ({ cameFrom, cameFromPage }) => {
       <div className="projectsContent">
         <div className="title projectsTitle">Projects</div>
         <div className="projectsInfo">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni
-          architecto, fugiat asperiores atque voluptatem aliquid dicta
-          consectetur perspiciatis voluptate ut.
+          Although I have no work experience, I have carried out several
+          personal projects. The personal repository is where I have kept the
+          small projects and practices according to my learning at the time, the
+          others are slightly larger projects that couldn't find a place in the
+          practice repository.
         </div>
         <div className="projectsCarousel">
           <PorjectsCarousel />
