@@ -233,7 +233,14 @@
   }
 }
 
-/* -------------- -375px -------------- */
-
-@media (max-width: 375px) {
+@media (max-height: 750px) {
+  .homeSubtitle {
+    margin: 0;
+  }
+  .homeSocials {
+    margin: 0;
+  }
+  .homeRight {
+    margin: 0;
+  }
 }
